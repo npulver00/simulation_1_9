@@ -47,8 +47,8 @@ class Wizard extends Component {
     render() { 
          console.log("postallshoestate", this.state)
         return ( 
-            <div>
-                Wizard
+            <div className="form">
+                
 
             <NavLink to="/"><button>Cancel</button></NavLink>
              <div>Property Name <input value={this.state.name} name="name" onChange={e=>{this.postInputHouse(e)}}/></div> 

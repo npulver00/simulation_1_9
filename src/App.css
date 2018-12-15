@@ -1,24 +1,79 @@
 .App {
   text-align: center;
+  /* background-image: url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat; */
+  display: block; 
+  background-color: rgb(233, 211, 208);
+  height: 1000px;
+ 
 }
+
+.form{
+  border: solid black;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(174, 67, 79);
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: 400;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  
+
+}
+.form input{
+  padding: 5px 20px 10px 5px;
+  margin: 0 auto;
+  width: 80%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  
+
+
+}
+/* input{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+} */
+.form > button{
+  border-radius: 10px;
+  background-color: blue
+}
+
 
 .header{
   background-color: green;
   width: 100%;
   height: 100px;
   font-size: 55px;
+  padding-bottom: 50px;
+
+  
 }
 
 .house{
   background-color: lightblue;
-  width: 450px;
+  width: 350px;
   height: 250px;
-  display: flex;
+  display: inline-block;
+  color: red;
+  font-weight: 200;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0% auto;
   border: solid black;
-  margin: 20px;
+  margin: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+
   
 }
